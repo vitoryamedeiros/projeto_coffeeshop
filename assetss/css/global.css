@@ -1,0 +1,42 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+body {
+  font-family: "Nova Mono", monospace;
+}
+  
+h1{
+  font-size: 3rem;
+}
+
+h2{
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #746660;
+}
+
+h3{
+  font-size: 1.25rem;
+}
+
+h4{
+  font-size: 1.1rem;
+  color: #5a4e49;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+span{
+  font-size: 1.05rem;
+  color: #574b45;
+  font-weight: 700;
+  padding-bottom: 5px;
+}

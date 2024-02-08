@@ -1,0 +1,33 @@
+
+.cupom{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: #a6bdb09d;
+}
+
+.cupom h2, span{
+    margin-bottom: 5px;
+    color: #574b45;
+}
+
+.cupom h2{
+    font-size: 1.7rem;
+}
+
+.subscribe{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    margin-left: 8px;
+    border: none ;
+    border-radius: 50px;
+}
+
+.email-input{
+    width: 240px;
+    font-size: .825rem;
+    color: #a6bdb0b9;
+}

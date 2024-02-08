@@ -1,0 +1,26 @@
+
+.aboutUs{
+    padding: 15px;
+    color: #d6c2b9;
+    background-color: #746660;
+}
+
+.aboutUs h2{
+    color: #d6c2b9;
+}
+
+.aboutUs p{
+    font-weight: 600;
+}
+
+.aboutUs .assets{
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutUs img{
+    margin-bottom: 15px;
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+}

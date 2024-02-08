@@ -1,0 +1,56 @@
+
+.feedbacks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 280px;
+    background-color: #fff;
+    padding-bottom: 30px;
+    /* background-color: #746660; */
+}
+
+.feedbacks h2{
+    padding-bottom: 20px;
+    color: #746660;
+}
+
+.feedbackUser{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+    height: 160px;
+    padding: 20px;
+    color: #fff;
+    background-color: #d6c2b9;
+    border: 2px outset  #746660 ;
+    box-shadow: 5px 5px 17px 1px #00000051 ;
+    border-radius: 20px;
+}
+
+.feedbackUser img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px ;
+}
+
+.feedbackUser h4{
+    margin-bottom: 5px;
+}
+
+.feedbackUser::after{
+    content: url(/projeto_coffeeshop/assetss/icons/arrow_rigth.png);
+    position: absolute;
+    right: 0;
+    padding: 6px;
+}
+
+.feedbackUser::before{
+    content: url(/projeto_coffeeshop/assetss/icons/arrow_left.png);
+    position: absolute;
+    left: 0;
+    padding: 6px;
+}

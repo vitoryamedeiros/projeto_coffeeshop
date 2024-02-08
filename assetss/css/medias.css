@@ -1,0 +1,18 @@
+
+@media (min-width: 767px) {
+    .menu-mobile {
+      display: none;
+    }
+  }
+
+
+@media (max-width: 767px) {
+    .menu-desktop {
+      display: none;
+    }
+
+    /* .menu-row{
+      display: grid;
+      grid-template-rows: 1fr 2fr;
+    } */
+  }

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    color: #6e5b53;
+    background-color: #d6c2b9bd;
+
+}
+
+.header{
+    padding-top: 60px;
+    width: 100%;
+    height: 360px;
+}
+
+.title,
+.title h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-weight: bold;
+    color: white;
+    padding: 8px;
+    text-align: left;
+}
+
+.title h1{
+    font-size: 3rem;
+}
+
+.title h2{
+    font-size: 1.4rem;
+}
+
+.menu-burguer{
+    width: 40px;
+}
+
+.paralax{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.607), rgba(0, 0, 0,0.448)), url(/projeto_coffeeshop/assetss/img/coffee_shop-transformed.jpeg);
+    opacity: 0.76;
+    /* backdrop-filter:unset; */
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
