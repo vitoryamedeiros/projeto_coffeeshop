@@ -52,3 +52,7 @@ span{
   font-weight: 700;
   padding-bottom: 5px;
 }
+
+a{
+  text-decoration: none;
+}

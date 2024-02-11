@@ -2,14 +2,15 @@
 
 .navbar{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    /* flex-direction: column; */
+    /* justify-content: center; */
     position: fixed;
     align-items: center;
-    width: 100%;
+    width: 100vw;
     height: 60px;
     color: #6e5b53;
     background-color: #d6c2b9de;
+    padding: 15px;
 
 }
 

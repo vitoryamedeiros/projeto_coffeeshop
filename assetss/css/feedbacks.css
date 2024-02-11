@@ -54,3 +54,7 @@
     left: 0;
     padding: 6px;
 }
+
+.feedbackUser .off{
+    display: none;
+}

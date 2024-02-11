@@ -16,7 +16,6 @@
 
     <!-- CSS IMPORT -->
     <link rel="stylesheet" href="/projeto_coffeeshop/assetss/css/global.css">
-    <link rel="stylesheet" href="/projeto_coffeeshop/assetss/css/medias.css">
     <link rel="stylesheet" href="/projeto_coffeeshop/assetss/css/header.css">
     <link rel="stylesheet" href="/projeto_coffeeshop/assetss/css/menu-hamburguer.css">
     <link rel="stylesheet" href="/projeto_coffeeshop/assetss/css/buttons.css">
@@ -25,42 +24,42 @@
     <link rel="stylesheet" href="/projeto_coffeeshop/assetss/css/feedbacks.css">
     <link rel="stylesheet" href="/projeto_coffeeshop/assetss/css/cupom.css">
     <link rel="stylesheet" href="/projeto_coffeeshop/assetss/css/footer.css">
-
+    <link rel="stylesheet" href="/projeto_coffeeshop/assetss/css/medias.css">
+    
 </head>
 <body>
     <!-- HEADER -->
     
     <nav class="navbar">
-        <div class="menu-burguer">
-            <img class="menu-icon" src="/projeto_coffeeshop/assetss/icons/menu.png" alt="">
-            <aside class="menu-mobile">
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#classic">CLASSIC's</a></li>
-                <li><a href="#special">SPECIAL's</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#login">LOGIN</a></li>
-            </aside>
-        </div>
 
         <h1 class="text-logo">VINTAGE COFFEE</h1>
+
+        <div class="menu-burguer">
+            
+            <!-- DISPLAY NONE WHEN MEDIA <= 768 -->
+            <div class="menu-mobile">
+                <img class="menu-icon" src="/projeto_coffeeshop/assetss/icons/menu.png" alt="">
+                
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#special">MENU</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#login">LOGIN</a></li>
+            </div>
+
+            <!-- DISPLAY NONE WHEN MEDIA => 768 -->            
+            <div class="menu-desktop">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#special">MENU</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#login">LOGIN</a></li>
+            </div>
+        </div>
 
         <!-- <img class="logo" src="/projeto_coffeeshop/assetss/icons/logo.png" alt="logo"> -->
         <!-- <img class="search" src="/projeto_coffeeshop/assetss/icons/search.png" alt="search"> -->
     </nav>
 
     <header class="header">
-
-            <!-- DISPLAY NONE WHEN MEDIA => 768 -->            
-
-            <!-- DISPLAY NONE WHEN MEDIA <= 768 -->
-            <div class="menu-desktop">
-                <a href="#home">HOME</a>
-                <a href="#classic">CLASSIC COFFEE</a>
-                <a href="#special">SPECIAL COFFEE</a>
-                <a href="#about">ABOUT</a>
-                <a href="#login">LOGIN</a>
-            </div>
-        
             <!-- TEXT -->
             <div class="content title paralax">
                 <h1>Welcome!</h1>
@@ -166,7 +165,7 @@
 
                 <div class="aboutUs assets">
                     <img src="/projeto_coffeeshop/assetss/img/about-us.jfif" alt="">
-                    <p>Lorem ipsum dolor. Id pariatur eius, suscipit fugit consectetur voluptate dolor provident rerum nulla eum amet? Consequatur molestiae quia aspernatur necessitatibus.</p>
+                    <p>Lorem ipsum dolor. Id pariatur eius, suscipit fugit consectetur voluptate dolor provident rerum nulla eum amet? Consequatur molestiae quia aspernatur necessitatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus unde voluptatum similique libero magnam nisi repudiandae, odio velit aperiam.</p>
                 </div>
             </section>
         </div>
@@ -176,7 +175,7 @@
             <section class="feedbacks">
                 <h2>FEEDBACK's</h2>
 
-                <div class="feedbackUser">
+                <div class="feedbackUser first">
                     <img src="/projeto_coffeeshop/assetss/img/icon-foto.png" alt="">
 
                     <div class="avaliation">
@@ -184,14 +183,23 @@
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum quidem animi totam!</p>
                     </div>
                 </div>
-                <!-- <div class="feedbackUser">
-                    <img src="" alt="">
-                    <p></p>
-                </div>
 
-                <div class="feedbackUser">
-                    <img src="" alt="">
-                    <p></p>
+                <!-- <div class="feedbackUser off">
+                    <img src="/projeto_coffeeshop/assetss/img/icon-foto.png" alt="">
+
+                    <div class="avaliation">
+                        <h4 class="text">Vitorya Medeiros</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum quidem animi totam!</p>
+                    </div>
+                </div> -->
+
+                <!-- <div class="feedbackUser off">
+                    <img src="/projeto_coffeeshop/assetss/img/icon-foto.png" alt="">
+
+                    <div class="avaliation">
+                        <h4 class="text">Vitorya Medeiros</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum quidem animi totam!</p>
+                    </div>
                 </div> -->
             </section>
         </div>

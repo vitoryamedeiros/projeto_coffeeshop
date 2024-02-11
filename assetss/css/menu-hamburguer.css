@@ -1,4 +1,27 @@
 
-.menu-burguer{
+.menu-mobile{
     display: none;
+}
+
+.menu-desktop{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.menu-desktop li{
+    list-style: none;
+    padding: 10px;
+}
+
+.menu-desktop a{
+    color: #6e5b53;
+    font-weight: 600;
+}
+
+.menu-desktop a:hover{
+    color: #ffffff;
+    font-weight: 600;
 }

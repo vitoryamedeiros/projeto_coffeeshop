@@ -3,6 +3,28 @@
     .menu-mobile {
       display: none;
     }
+
+    .navbar{
+      justify-content: space-between;
+    }
+/* 
+    .row .wrapper{
+      display: grid;
+      grid-template-columns: 2fr 3fr;
+    } */
+
+    .aboutUs .assets{
+      flex-direction: row;
+    }
+
+    .aboutUs p{
+      margin: 10px;
+    }
+
+    .section .combos{
+      flex-direction: row;
+      justify-content: center;
+    }
   }
 
 
@@ -10,6 +32,13 @@
     .menu-desktop {
       display: none;
     }
+
+    .navbar{
+      display: flex;
+      justify-content: center;
+    }
+    
+
 
     /* .menu-row{
       display: grid;
