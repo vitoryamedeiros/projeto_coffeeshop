@@ -1,20 +1,21 @@
 
 .feedbacks{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 280px;
     background-color: #fff;
-    padding-bottom: 30px;
+    padding: 20px;
+    margin: 20px;
     /* background-color: #746660; */
 }
 
-.feedbacks h2{
+/* .container h2{
     padding-bottom: 20px;
     color: #746660;
-}
+} */
 
 .feedbackUser{
     display: flex;
@@ -24,6 +25,7 @@
     width: 310px;
     height: 160px;
     padding: 20px;
+    margin: 20px;
     color: #fff;
     background-color: #d6c2b9;
     border: 2px outset  #746660 ;
@@ -34,7 +36,7 @@
 .feedbackUser img{
     width: 60px;
     height: 60px;
-    margin-right: 10px ;
+    margin-right: 10px;
 }
 
 .feedbackUser h4{
@@ -55,6 +57,16 @@
     padding: 6px;
 }
 
-.feedbackUser .off{
+/* .feedbackUser .off{
     display: none;
+} */
+
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  
+    .card {
+      display: inline-block;
+    }
 }

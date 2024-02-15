@@ -3,9 +3,17 @@
     display: none;
 }
 
-.menu-desktop{
+.menu-icon{
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: column;
+    justify-content: center;
+    width: 45px;
+    right: 100px;
+}
+
+.menu-desktop{
+    display: none;
+    flex-direction: row;
     justify-content: space-around;
     padding: 10px;
 

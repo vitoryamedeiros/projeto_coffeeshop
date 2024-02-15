@@ -3,7 +3,7 @@
 .navbar{
     display: flex;
     /* flex-direction: column; */
-    /* justify-content: center; */
+    justify-content: space-around;
     position: fixed;
     align-items: center;
     width: 100vw;

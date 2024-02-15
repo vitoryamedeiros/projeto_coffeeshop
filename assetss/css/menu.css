@@ -2,7 +2,11 @@
 .menu-row{
     /* background-color: #746660; */
     background-color: #d6c2b9;
-    padding: 25px;
+    padding-top: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .row{
@@ -13,7 +17,7 @@
 
 .wrapper{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .coffee{
@@ -38,10 +42,22 @@
     margin: 5px;
 }
 
-.section .combos{
+.active-extra{
+    display: none;
+}
+
+.combos-section {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    /* display: grid;
+    grid-template-columns: repeat(1, 1fr); */
+}
+
+.section .combos{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
 }
 
 .combos h2{
@@ -49,12 +65,15 @@
 }
 
 .combo{
-    width: 350px;
+    width: 320px;
     height: 400px;
 }
 
 .combo img{
-    width: 250px;
-    height: 280px;
+    width: 240px;
+    height: 270px;
 }
 
+.combo-extra{
+    display: none;
+}
