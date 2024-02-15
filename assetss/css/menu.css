@@ -51,13 +51,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* display: grid;
-    grid-template-columns: repeat(1, 1fr); */
 }
 
-.section .combos{
+.combooos{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+
 }
 
 .combos h2{

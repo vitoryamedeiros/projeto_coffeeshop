@@ -39,9 +39,9 @@
     font-size: 1.4rem;
 }
 
-.menu-burguer{
+/* .menu-burguer{
     width: 40px;
-}
+} */
 
 .paralax{
     background-image:  linear-gradient(rgba(0, 0, 0, 0.607), rgba(0, 0, 0,0.448)), url(/projeto_coffeeshop/assetss/img/coffee_shop-transformed.jpeg);

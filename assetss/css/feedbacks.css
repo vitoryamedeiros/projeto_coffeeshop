@@ -8,8 +8,6 @@
     height: 280px;
     background-color: #fff;
     padding: 20px;
-    margin: 20px;
-    /* background-color: #746660; */
 }
 
 /* .container h2{
@@ -57,16 +55,16 @@
     padding: 6px;
 }
 
-/* .feedbackUser .off{
+.feedbackUser .off{
     display: none;
-} */
+}
 
-.scrolling-wrapper {
+/* .scrolling-wraper {
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
   
-    .card {
-      display: inline-block;
-    }
+.card {
+    display: inline-block;
 }
+} */
