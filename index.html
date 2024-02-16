@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="/projeto_coffeeshop/assetss/css/medias.css">
     
 </head>
-<body>
+<body id="home">
     <!-- HEADER -->
     
     <nav class="navbar">
@@ -49,7 +49,7 @@
             <!-- DISPLAY NONE WHEN MEDIA => 768 -->            
             <div class="menu-desktop">
                 <li><a href="#home">HOME</a></li>
-                <li><a href="#special">MENU</a></li>
+                <li><a href="#menu">MENU</a></li>
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#login">LOGIN</a></li>
             </div>
@@ -71,20 +71,32 @@
     <main class="main">
 
         <!-- COFFEE's MENU ROW -->
-        <div class="container menu-row">
-            <section id="cardapio" class="section">
+        <div id="menu" class="container menu-row">
+
+            <!-- COFFESS -->
+            <section class="section">
                 <h2>COFFEE'S</h2>
+                
                 <div class="row wrapper">
-                    <div class="coffee">
+                    <div class="coffee classic">
                         <img src="/projeto_coffeeshop/assetss/img/coffe_toroto.jfif" alt="">
 
-                        <h4>Totoro Coffee</h4>
+                        <h4>Totoroto</h4>
                         <span>R$27</span>
 
                         <button class="button-comprar">Order Now</button>
                     </div>
+                    
+                    <div class="coffee classic">
+                        <img src="/projeto_coffeeshop/assetss/img/coffee-catcato.jfif" alt="">
 
-                    <div class="coffee">
+                        <h4> Catocato</h4>
+                        <span>R$30</span>
+
+                        <button class="button-comprar">Order Now</button>
+                    </div>
+
+                    <div class="coffee classic">
                         <img src="/projeto_coffeeshop/assetss/img/coffee-pegasus.jfif" alt="">
 
                         <h4>Black Jack</h4>
@@ -92,77 +104,74 @@
 
                         <button class="button-comprar">Order Now</button>
                     </div>
+                    
+                    <div class="coffee classic">
+                        <img src="/projeto_coffeeshop/assetss/img/coffee-chimchim.jfif" alt="">
+                        
+                        <h4>Chim Chim</h4>
+                        <span>R$30</span>
+                        
+                        <button class="button-comprar">Order Now</button>
+                    </div>
+                    
+                    <div class="coffee classic coffee-extra">
+                        <img src="/projeto_coffeeshop/assetss/img/coffee-buxexa.jfif" alt="">
 
-                    <div class="coffee">
+                        <h4>Buxexa's</h4>
+                        <span>R$30</span>
+
+                        <button class="button-comprar">Order Now</button>
+                    </div>
+
+                    <div class="coffee classic coffee-extra">
+                        <img src="/projeto_coffeeshop/assetss/img/coffee-hero.jpg" alt="">
+                        
+                        <h4>BIG Hero</h4>
+                        <span>R$30</span>
+                        
+                        <button class="button-comprar">Order Now</button>
+                    </div>
+                                        
+                    <div class="coffee classic coffee-extra">
+                        <img src="/projeto_coffeeshop/assetss/img/coffee-heelllokitty.jfif" alt="">
+                        
+                        <h4> Hello, Kitty</h4>
+                        <span>R$30</span>
+                        
+                        <button class="button-comprar">Order Now</button>
+                    </div>
+
+                    <div class="coffee classic coffee-extra">
                         <img src="/projeto_coffeeshop/assetss/img/coffee_pikachu.jfif" alt="">
 
-                        <h4>Pikachu Coffee</h4>
+                        <h4>PikaPika Xu</h4>
                         <span>R$20</span>
 
                         <button class="button-comprar">Order Now</button>
-                    </div>
+                    </div>          
 
-                    <div class="coffee">
+                    <!----> 
+                    <div class="coffee classic coffee-extra active-extra">
                         <img src="/projeto_coffeeshop/assetss/img/coffee-anime.jfif" alt="">
 
-                        <h4>Slayer Coffee</h4>
+                        <h4>Slayer Xamas </h4>
                         <span>R$30</span>
 
                         <button class="button-comprar">Order Now</button>
-                    </div>
+                    </div> 
 
-                    <div class="coffee">
-                        <img src="/projeto_coffeeshop/assetss/img/coffee-heelllokitty.jfif" alt="">
-
-                        <h4> Hello, Kitty</h4>
-                        <span>R$30</span>
-
-                        <button class="button-comprar">Order Now</button>
-                    </div>
-                    
-                    <div class="coffee">
-                        <img src="/projeto_coffeeshop/assetss/img/coffee-hero.jpg" alt="">
-
-                        <h4>BIG Hero</h4>
-                        <span>R$30</span>
-
-                        <button class="button-comprar">Order Now</button>
-                    </div>
-
-                    <div class="coffee active">
-                        <img src="/projeto_coffeeshop/assetss/img/coffee-chimchim.jfif" alt="">
-
-                        <h4>Chim Coffee</h4>
-                        <span>R$30</span>
-
-                        <button class="button-comprar">Order Now</button>
-                    </div>
-
-                    <div class="coffee active">
-                        <img src="/projeto_coffeeshop/assetss/img/coffee-catcato.jfif" alt="">
-
-                        <h4> Cacato Coffee</h4>
-                        <span>R$30</span>
-
-                        <button class="button-comprar">Order Now</button>
-                    </div>
-                    
-                    <div class="coffee active-extra">
-                        <img src="/projeto_coffeeshop/assetss/img/coffee-buxexa.jfif" alt="">
-
-                        <h4>Buxexa Coffee</h4>
-                        <span>R$30</span>
-
-                        <button class="button-comprar">Order Now</button>
-                    </div>
                 </div>
+
+                <button class="button-more-coffee more">See more</button>
+
             </section>
             
+            <!-- COMBOS -->
             <section class="combos-section" id="combos">
 
                 <h2 class="section combos">COMBOS</h2>
 
-                <div class="row combos wrapper">
+                <div class="combos-section row wrapper">
 
                     <div class="combooos">
                         <div class="coffee combo card">
@@ -220,13 +229,13 @@
                         </div>
                     </div>
                 </div>
-                    <button class="button-more">See more</button>
-                
+
+                <button class="button-more">See more</button>
             </section>
         </div>
 
         <!-- ABOUT US -->
-        <div class="container">
+        <div id="about" class="container">
             <section class="aboutUs">
                 <h2>ABOUT US</h2>
 

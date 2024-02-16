@@ -1,24 +1,37 @@
 
+// MENU-BURGUER
 const openMenu = document.querySelector('.menu-mobile');
 const itemMenu = document.querySelector('.menu-item');
-// const navBar = document.querySelector('.navbar');
-// const pennywiseMobTheme = document.querySelector('.pennywise-mobile');
-// const pennywiseDeskTheme = document.querySelector('.pennywise-desktop');
-// const sectionUmTheme = document.querySelector('.section-1');
-// const titleTheme = document.querySelector('.title');
-// const arrowDonwTheme = document.querySelector('.arrow-donw');
-// const sectionDoisTheme = document.querySelector('.section-2');
-// const jorgeTheme = document.querySelector('.jorge');
 
 openMenu.onclick = function(){
   this.classList.toggle('active')
   itemMenu.classList.toggle('active')
-//   pennywiseMobTheme.classList.toggle('active')
-//   pennywiseDeskTheme.classList.toggle('active')
-//   navBar.classList.toggle('active')
-//   sectionUmTheme.classList.toggle('active')
-//   titleTheme.classList.toggle('active')
-//   arrowDonwTheme.classList.toggle('active')
-//   sectionDoisTheme.classList.toggle('active')
-//   jorgeTheme.classList.toggle('active')
 }
+
+
+// BUTTON SEE MORE COFFEE
+const buttonMoreCombo = document.querySelector('.button-more');
+const buttonMoreCoffee = document.querySelector('.button-more-coffee');
+const seeMoreCoffee = document.querySelectorAll('div.coffee-extra');
+const seeMoreCombo = document.querySelectorAll('div.combo-extra');
+
+buttonMoreCoffee.onclick = function(){
+  this.classList.toggle('visible')
+
+  for(let i = 0; i < seeMoreCoffee.length; i++){
+    seeMoreCoffee[i].classList.toggle('visible');
+  }
+}
+
+
+// BUTTON SEE MORE COMBOS
+
+buttonMoreCombo.onclick = function(){
+  this.classList.toggle('visible')
+
+  for(let i = 0; i < seeMoreCombo.length; i++){
+    seeMoreCombo[i].classList.toggle('visible');
+  }
+
+}
+

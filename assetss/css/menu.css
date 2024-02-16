@@ -1,8 +1,17 @@
 
 .menu-row{
-    /* background-color: #746660; */
-    background-color: #d6c2b9;
+    /* background-color: #d1d4f9; */
+    /* background-color: #d6c2b9; */
+    
+    background-color: #D9C1B8;
     padding-top: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,9 +51,6 @@
     margin: 5px;
 }
 
-.active-extra{
-    display: none;
-}
 
 .combos-section {
     display: flex;
@@ -56,7 +62,6 @@
 .combooos{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-
 }
 
 .combos h2{
@@ -73,6 +78,24 @@
     height: 270px;
 }
 
-.combo-extra{
+.combo-extra,
+.coffee-extra{
+    display: none;
+}
+
+
+/* BUTTON SEE MORE */
+
+.combo-extra.visible,
+.coffee-extra.visible{
+    display: flex;
+}
+
+.button-more.visible,
+.button-more-coffee.visible{
+    display: none;
+}
+
+.combo-extra.active-extra{
     display: none;
 }

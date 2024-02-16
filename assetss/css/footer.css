@@ -3,7 +3,7 @@
     background-color: #544e95d2;
     color: white;
     height: auto;
-    width: 100%;
+    width: 100vw;
     font-size: 1rem;
     font-family: helvetica;
 }
@@ -21,7 +21,7 @@
 .rodape-div{
     display: flex;
     flex-wrap: wrap;
-    width:100%;
+    width:100vw;
     margin: auto;
     align-items: stretch;
     padding: 40px 10px 40px 10px;
@@ -55,7 +55,7 @@
 /*desktop*/
 @media (min-width: 768px) {
     .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
-        width: calc(100% / 4 - 20px);
+        width: calc(100vw / 4 - 20px);
         padding: 10px;
     }
     .rodape-div{

@@ -28,7 +28,8 @@
     background-color: #5d55bae5;
 }
 
-.button-more{
+.button-more,
+.button-more-coffee{
     padding: 9px;
     font-size: 1rem;
     border: none;
@@ -40,7 +41,8 @@
     margin-bottom: 15px;
 }
 
-.button-more:hover{
+.button-more,
+.button-more-coffee:hover{
     cursor: pointer;
     color: #8e8ab0;
     background-color: #fff;

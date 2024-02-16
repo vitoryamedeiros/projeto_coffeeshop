@@ -3,20 +3,22 @@
 .navbar{
     display: flex;
     /* flex-direction: column; */
-    justify-content: space-around;
+    justify-content: center;
     position: fixed;
     align-items: center;
     width: 100vw;
     height: 60px;
-    color: #6e5b53;
-    background-color: #d6c2b9de;
+    /* /* color: #6e5b53; */
+    /* background-color: #d6c2b9de; */
+    color: #5f3d3d;
+    background-color: #D9C1B8;
     padding: 15px;
 
 }
 
 .header{
     padding-top: 60px;
-    width: 100%;
+    width: 100vw;
     height: 360px;
 }
 
@@ -44,12 +46,14 @@
 } */
 
 .paralax{
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.607), rgba(0, 0, 0,0.448)), url(/projeto_coffeeshop/assetss/img/coffee_shop-transformed.jpeg);
-    opacity: 0.76;
+    /* background-image:  linear-gradient(rgba(0, 0, 0, 0.607), rgba(0, 0, 0,0.448)), url(/projeto_coffeeshop/assetss/img/coffee_shop-transformed.jpeg); */
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.607), rgba(0, 0, 0,0.448)), url(/projeto_coffeeshop/assetss/img/medias/mobile.png);
+    opacity: .85;
     /* backdrop-filter:unset; */
     min-height: 300px;
-    background-attachment: fixed;
+    max-width: 100vw;
+    /* background-attachment: fixed; */
     background-position: top center;
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
 }

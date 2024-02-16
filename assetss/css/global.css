@@ -21,6 +21,15 @@ body {
   font-family: "Nova Mono", monospace;
 }
   
+/* .header,
+.main{
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
 h1{
   font-size: 3rem;
 }
@@ -29,7 +38,8 @@ h2{
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
-  color: #746660;
+  /* color: #746660; */
+  color: #5f3d3d;
 }
 
 h3{
@@ -38,7 +48,7 @@ h3{
 
 h4{
   font-size: 1.1rem;
-  color: #5a4e49;
+  color: #5f3d3d;
 }
 
 p {
@@ -48,8 +58,8 @@ p {
 
 span{
   font-size: 1.05rem;
-  color: #574b45;
-  font-weight: 700;
+  color: #5f3d3d;
+  font-weight: 800;
   padding-bottom: 5px;
 }
 
