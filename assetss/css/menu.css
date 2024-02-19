@@ -36,8 +36,8 @@
     width: 168px;
     height: 227px;
     font-size: bold;
-    color: #202622;
-    background-color: #fffbeb;
+    /* background-color: #fffbeb; */
+    background-color: rgb(149 116 116 / 44%);
     border-radius: 10px;
     margin: 10px;
     padding: 10px;

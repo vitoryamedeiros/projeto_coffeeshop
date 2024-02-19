@@ -1,12 +1,12 @@
 
 // MENU-BURGUER
-const openMenu = document.querySelector('.menu-mobile');
-const itemMenu = document.querySelector('.menu-item');
+// const openMenu = document.querySelector('.menu-mobile');
+// const itemMenu = document.querySelector('.menu-item');
 
-openMenu.onclick = function(){
-  this.classList.toggle('active')
-  itemMenu.classList.toggle('active')
-}
+// openMenu.onclick = function(){
+//   this.classList.toggle('active')
+//   itemMenu.classList.toggle('active')
+// }
 
 
 // BUTTON SEE MORE COFFEE

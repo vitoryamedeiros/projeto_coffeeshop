@@ -1,4 +1,4 @@
-
+/* */
 .rodape{
     background-color: #544e95d2;
     color: white;
@@ -8,29 +8,36 @@
     font-family: helvetica;
 }
 
-.text-logo{
-    font-size: 1.55rem;
-    font-weight: 700;
-    margin-bottom: 7px;
+.text-logo.footer{
+    font-size: 1.45rem;
+    font-weight: 00;
+    /* margin-bottom: 7px; */
+    padding: 20px 10px 10px 10px;
 }
 
 .rodape p{
-    padding: 5px;
+    padding-bottom: 5px;
 }
 
 .rodape-div{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
     width:100vw;
     margin: auto;
-    align-items: stretch;
-    padding: 40px 10px 40px 10px;
+    /* align-items: stretch; */
+    padding-left: 20px;
 }
 
-.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+.adress, .contact, .sociais{
     display: flex;
+    flex-direction: column;
     /* width: calc(50% - 20px); */
-    padding: 10px;
+    padding: 5px;
+}
+
+.sociais .icon{
+    flex-direction: row;
 }
 
 .rodape span{
@@ -40,6 +47,7 @@
 
 .rodape-direitos{
     /* width: calc(100% - 20px); */
+    width: 100VW;
     background-color: rgb(34, 34, 34);
     padding: 15px;
     margin: 0px;
@@ -47,18 +55,19 @@
 }
 
 .rodape-icons{
-    padding: 3px;
+    /* padding: 0px; */
     width: 45px;
 }
 
 
 /*desktop*/
 @media (min-width: 768px) {
-    .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
-        width: calc(100vw / 4 - 20px);
+    .adress, .contact, .sociais{
+    /* width: calc(100vw / 4 - 20px); */
         padding: 10px;
     }
-    .rodape-div{
+
+    /* .rodape-div{
         padding: 60px 0px 40px 0px;
-    }
-}
+    } */
+} 

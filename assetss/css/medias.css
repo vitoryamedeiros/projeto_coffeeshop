@@ -27,7 +27,7 @@
     .coffee{
       width: 180px;
       height: 235px;
-      margin: 15px;
+      /* margin: 15px; */
     }
   
     .coffee img{
@@ -68,7 +68,7 @@
     }
 
     .aboutUs p{
-      margin: 10px;
+      margin: 12px;
     }
 
     .section .combos{
@@ -106,12 +106,71 @@
     }
 
     .coffee img{
-      width: 280px;
+      width: 130px;
       height: 270px;
     }
 
     .combooos{
       grid-template-columns: repeat(3, 1fr);
+    }
+
+    .combo{
+      width: 250px;
+      height: 350px;
+    }
+  
+    .combo img{
+      width: 200px;
+      height: 230px;
+    }
+
+    .combo-extra,
+    .coffee-extra{
+    display: flex;
+    }
+
+    .button-more,
+    .button-more-coffee{
+      display: none;
+    }
+
+    .active-extra{
+      display: flex;
+    }
+
+    .aboutUs p{
+      font-size: 1.15rem;
+    }
+
+    .text-logo.footer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .rodape-div{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+  }
+
+  @media (min-width: 1290px) {
+    .paralax{
+      background-image:  linear-gradient(rgba(0, 0, 0, 0.607), rgba(0, 0, 0,0.448)), url(/projeto_coffeeshop/assetss/img/medias/1901.png);
+      background-repeat: no-repeat;
+    }
+
+    .coffee{
+      width: 260px;
+      height: 265px;
+      background-color: rgb(149 116 116 / 44%);
+    }
+
+    .coffee img{
+      width: 140px;
+      height: 250px;
     }
 
     .combo{
@@ -124,35 +183,11 @@
       height: 260px;
     }
 
-    .combo-extra,
-    .coffee-extra{
-    display: flex;
+    .aboutUs .assets{
+      margin: 0px 227px;
+      font-size: 2rem;
     }
-
-    .button-more,
-    .button-more-coffe{
-      display: none;
-    }
-
-    .active-extra{
-      display: flex;
-    }
-  }
-
-  @media (min-width: 1290px) {
-    .paralax{
-      background-image:  linear-gradient(rgba(0, 0, 0, 0.607), rgba(0, 0, 0,0.448)), url(/projeto_coffeeshop/assetss/img/medias/1901.png);
-      background-repeat: no-repeat;
-    }
-
-    .coffee{
-      width: 260px;
-      height: 265px;
-      background-color: rgba(82, 57, 57, 0.422);
-    }
-
-    .coffee img{
-      width: 140px;
-      height: 250px;
+    .aboutUs p{
+      font-size: 1.35rem;
     }
   }
