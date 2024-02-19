@@ -4,7 +4,7 @@
     /* background-color: #d6c2b9; */
     
     background-color: #D9C1B8;
-    padding-top: 18px;
+    padding-top: 26px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,10 +62,6 @@
 .combooos{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-}
-
-.combos h2{
-    padding-top: 30px;
 }
 
 .combo{
