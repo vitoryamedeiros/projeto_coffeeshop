@@ -10,7 +10,7 @@
 
 .button-comprar:hover{
     cursor: pointer;
-    padding: 10px;
+    /* padding: 10px; */
     color: #8e8ab0;
     background-color: #fcfcff;
     /* border: 1px solid #574b45; */

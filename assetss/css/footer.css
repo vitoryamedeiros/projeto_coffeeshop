@@ -3,7 +3,7 @@
     background-color: #544e95d2;
     color: white;
     height: auto;
-    width: 100vw;
+    /* width: 100vw; */
     font-size: 1rem;
     font-family: helvetica;
 }
@@ -23,7 +23,7 @@
     display: flex;
     flex-direction: column;
     /* flex-wrap: wrap; */
-    width:100vw;
+    /* width:100vw; */
     margin: auto;
     /* align-items: stretch; */
     padding-left: 20px;
@@ -51,7 +51,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 100VW;
+    /* width: 100VW; */
     height: 30px;
     background-color: rgb(34, 34, 34);
     font-size: .75rem;
@@ -59,18 +59,6 @@
 
 .rodape-icons{
     /* padding: 0px; */
-    width: 45px;
+    width: 35px;
 }
 
-
-/*desktop*/
-@media (min-width: 768px) {
-    .adress, .contact, .sociais{
-    /* width: calc(100vw / 4 - 20px); */
-        padding: 10px;
-    }
-
-    /* .rodape-div{
-        padding: 60px 0px 40px 0px;
-    } */
-} 
