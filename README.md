@@ -5,7 +5,7 @@
 - HTML
 - CSS
 - JAVASCRIPT
-### 📍 Images de Preview
+### 📍 Imagens de Preview
 #### 📱 Mobile Version
 ![mobile coffee](https://github.com/vitoryamedeiros/projeto_coffeeshop/assets/110641657/0e09354d-7b0c-4651-a189-14bda814f297)
 #### 💻 Tablet Version
